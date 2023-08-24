@@ -1,6 +1,5 @@
-# Create Datalake ##
+# Create Datalake 
 
-# Create directory raw-data
 resource "azurerm_storage_data_lake_gen2_filesystem" "fc" {
   name               = "lab-covid-brazil-240823"
   storage_account_id = azurerm_storage_account.sa.id

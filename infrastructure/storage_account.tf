@@ -1,6 +1,6 @@
 # Create a storage account
 resource "azurerm_storage_account" "sa" {
-  name                     = "covidbrazil240823"
+  name                     = "labcovidbrazil240823"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
