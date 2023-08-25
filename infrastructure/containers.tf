@@ -1,4 +1,4 @@
-# Create Datalake 
+# Create Datalake
 
 resource "azurerm_storage_data_lake_gen2_filesystem" "fc" {
   name               = "lab-covid-brazil-240823"
